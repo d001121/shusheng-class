@@ -1,6 +1,8 @@
 #./internlm_test.py
 from openai import OpenAI
 import os
+
+
 def internlm_gen(prompt,client):
     '''
     LLM生成函数
